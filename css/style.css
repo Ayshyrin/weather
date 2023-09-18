@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url(/font/Kanit-Regular.ttf);
+}
+
+body {
+    font-family: 'Kanit';
+    src: url(/font/Kanit-Regular.ttf);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 50px;
+    mix-blend-mode: multiply;
+    text-align: center;
+    background: linear-gradient(rgba(4, 44, 255, 0.80) 0%, rgba(12, 41, 238, 0.59) 23.96%, rgba(20, 37, 221, 0.38) 48.44%, rgba(26, 35, 189, 0.23) 63.02%, rgba(28, 35, 180, 0.18) 78.12%, rgba(33, 34, 152, 0.06) 99.98%, rgba(34, 30, 191, 0.00) 99.99%, rgba(21, 24, 100, 0.00) 100%);
+}
+
+
+input {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 200px;
+    height: 22px;
+    flex-shrink: 0;
+    border: 1px solid;
+    border-radius: 4px;;
+    mix-blend-mode: multiply;
+    margin-bottom: 15px;
+}
+
+button {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight:bold;
+    line-height: normal;
+    width: 60px;
+    height: 27px;
+    flex-shrink: 0;
+    border: 1px solid;
+    border-color: #000;
+    border-radius: 4px;
+    background: #000;
+    backdrop-filter: blur(2px);
+}
+
+.card {
+    text-align: center;
+    width: 360px;
+    padding: 30px;
+    border: 1px solid;
+    border-color: #FFF;
+    border-radius: 15px;
+    opacity: 0.7;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.50);
+    opacity: 60%;
+}
+
+.card-city {
+    color: #000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-value {
+    color: #000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-description {
+    color: #000;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
